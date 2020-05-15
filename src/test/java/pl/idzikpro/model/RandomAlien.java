@@ -1,4 +1,4 @@
-package pl.idzikpro.aliens.model;
+package pl.idzikpro.model;
 
 public class RandomAlien {
     private String race;
