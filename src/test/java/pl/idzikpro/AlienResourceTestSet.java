@@ -84,10 +84,10 @@ public class AlienResourceTestSet {
 
     @ParameterizedTest
     @MethodSource(value = "feedcountAddedRandomAliens")
-    public void countAddedRandomAliens_byRaceandRank_resultTrue(List<RandomAlien> list) {
+    public void add_and_remove_RandomAliens_byRaceandRank_resultTrue(List<RandomAlien> list) {
         addAliens(list);
         Assertions.assertThat(countAliens()).isEqualTo(list.size());
     }
 
-    
+
 }
